@@ -1,0 +1,21 @@
+.app {
+  width: 860px;
+  height: 550px;
+  position: relative;
+  top: 40%;
+  transform: translate(0, -40%);
+  padding: 30px;
+}
+
+.app__watcher {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.app__content {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  height: calc(100% - 80px);
+}

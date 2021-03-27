@@ -1,0 +1,14 @@
+.counter {
+  width: 200px;
+}
+
+.counter__clock {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.counter__toolbar {
+  display: flex;
+  justify-content: center;
+}
