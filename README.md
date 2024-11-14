@@ -2,11 +2,12 @@
 
 Приложение позволяет создать список задач и с помощью трекера времени отследить, за сколько задача была сделана (hh:mm:ss)
 
-![трекер времени для задач](./assets/readme-image.png)
+<img width="819" alt="readme-image" src="https://github.com/user-attachments/assets/c77343e8-79e9-4e51-bcf7-296ac3705313">
 
 ### `npm start`
 
 Запускает проект
+
 
 ### `npm run build`
 
