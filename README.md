@@ -1,5 +1,7 @@
 # Трекер времени для задач
 
+[Посмотреть проект на Codesandbox](https://codesandbox.io/p/github/Kris-Kruis/time-tracker-for-tasks/master?import=true)
+
 Приложение позволяет создать список задач и с помощью трекера времени отследить, за сколько задача была сделана (hh:mm:ss)
 
 <img width="819" alt="readme-image" src="https://github.com/user-attachments/assets/c77343e8-79e9-4e51-bcf7-296ac3705313">
