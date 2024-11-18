@@ -1,9 +1,9 @@
-import React, { ReactNode } from 'react'
-import { styled } from 'styled-components'
+import React, { ReactNode } from "react";
+import { styled } from "styled-components";
 
-import List from 'components/TodoList'
-import Toolbar from 'components/Toolbar'
-import UiStopwatch from 'components/Stopwatch'
+import List from "components/TodoList";
+import Toolbar from "components/Toolbar";
+import UiStopwatch from "components/Stopwatch";
 
 export const App: React.ComponentType<{ children: ReactNode }> = styled.div`
   width: 860px;
@@ -16,22 +16,22 @@ export const App: React.ComponentType<{ children: ReactNode }> = styled.div`
   grid-template-columns: 1fr max-content;
   grid-template-rows: 64px 1fr;
   grid-template-areas:
-    'todo-list-toolbar stopwatch'
-    'todo-list .';
+    "todo-list-toolbar stopwatch"
+    "todo-list .";
   grid-column-gap: 50px;
   grid-row-gap: 15px;
-`
+`;
 
 export const TodoListToolbar: typeof Toolbar = styled(Toolbar)`
   grid-area: todo-list-toolbar;
   align-self: end;
-`
+`;
 
 export const TodoList: typeof List = styled(List)`
   grid-area: todo-list;
-  height: 370px;
-`
+  height: 275px;
+`;
 
 export const Stopwatch: typeof UiStopwatch = styled(UiStopwatch)`
   grid-area: stopwatch;
-`
+`;
